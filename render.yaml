@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: telegram-bot
     runtime: python
     buildCommand: pip install -r requirements.txt
@@ -7,6 +7,9 @@ services:
     plan: free
     envVars:
       - key: BOT_TOKEN
-        sync: false
+        value: 8620234038:AAEa-fpAiRYIsFJIRmhy2Sn6QmwaReD7fH0
       - key: PYTHON_VERSION
         value: 3.11.0
+      - key: PORT
+        value: 10000
+        
