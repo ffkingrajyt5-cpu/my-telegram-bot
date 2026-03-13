@@ -1,0 +1,16 @@
+python-telegram-bot==20.7
+openai
+gTTS
+SpeechRecognition
+Pillow
+qrcode[pil]
+yt-dlp
+requests
+pydub
+instaloader
+pyshorteners
+img2pdf
+rembg
+python-whois
+dnspython
+cryptography
